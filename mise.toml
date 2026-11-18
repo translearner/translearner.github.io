@@ -1,0 +1,9 @@
+[tools]
+hugo-extended = "0.158.0" # hugo-book v0.16.0 needs >= 0.158.0
+uv = "0.13.8"
+
+[tasks.dev]
+run = "hugo server"
+
+[tasks.build]
+run = ["hugo --gc --minify", "uv run --no-project --with 'pagefind[extended]==1.6.0' python -m pagefind --site public --root-selector article.book-article"]
