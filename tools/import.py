@@ -25,7 +25,8 @@ SITE_NAME = 'أرشيف المترجمين'
 DROP = ('style, script, ins, noscript, form, iframe[src*="commentsplugin"], .wsite-adsense, .wsite-spacer, '
         '.imgPusher, .blog-comments, .blog-comments-bottom, .blog-sidebar, .blog-page-nav-previous, '
         '.blog-social, .blog-feed-link, .wsite-form-container, #wsite-search-sidebar, '
-        'a[href*="youtubeembedcode.com"], a[href*="add-link-exchange.com"]')  # SEO spam from an embed generator
+        'a[href*="youtubeembedcode.com"], a[href*="add-link-exchange.com"], '  # SEO spam from an embed generator
+        '#fanback, iframe[src*="widgetic.com"]')  # Facebook like-box pop-up; widgetic widgets now serve blank pages
 SEARCH = '''<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <div id="search"></div>
 <script src="/pagefind/pagefind-ui.js"></script>
@@ -107,9 +108,12 @@ def to_md(node) -> str:
         img.attrs['src'] = image(img.attributes.get('src') or '')
         if (img.attributes.get('alt') or '') == 'Picture':
             img.attrs['alt'] = ''
-    for a in node.css('a'):
-        if a.attributes.get('href'):
-            a.attrs['href'] = link(a.attributes['href'])
+    for a in reversed(node.css('a')):
+        href = a.attributes.get('href') or ''
+        if re.match(r'^(https?:)?//(unset)?(/|$)', href, re.I):
+            a.unwrap()  # Weebly blog permalinks on an "UNSET" host; the posts weren't exported
+        elif href:
+            a.attrs['href'] = link(href)
     md = md_of(node)
     return re.sub(r'@@B(\d+)@@', lambda m: blocks[int(m.group(1))], md)
 
@@ -221,7 +225,10 @@ def walk(ul, parent: Path, seen: set):
 
 
 def fetch_missing():
-    for path in sorted(p for p in used_images if p.startswith('uploads/') and not (STATIC / p).exists()):
+    # an original that already has its .webp copy was pruned on purpose; don't fetch it back
+    missing = (p for p in used_images if p.startswith('uploads/') and not (STATIC / p).exists()
+               and not (STATIC / p).with_suffix('.webp').exists())
+    for path in sorted(missing):
         url = f'https://web.archive.org/web/2026id_/https://translearner.weebly.com/{quote(path)}'
         (STATIC / path).parent.mkdir(parents=True, exist_ok=True)
         # curl -m caps the whole transfer (urllib's per-read timeout hung on archive.org);
@@ -240,13 +247,16 @@ def fetch_missing():
 
 
 def webp_copies(max_w=1200, min_bytes=150_000):
-    """Big jpg/png images get a lighter .webp sibling; pages point at it, originals stay."""
+    """Big jpg/png images get a lighter .webp sibling that pages point at (originals are pruned later)."""
     swapped = {}
     for path in used_images:
         f = STATIC / path
+        out = f.with_suffix('.webp')
+        if f.suffix.lower() in ('.jpg', '.jpeg', '.png') and out.exists() and not f.exists():
+            swapped['/' + path] = '/' + str(out.relative_to(STATIC))  # original already pruned
+            continue
         if f.suffix.lower() not in ('.jpg', '.jpeg', '.png') or not f.exists() or f.stat().st_size < min_bytes:
             continue
-        out = f.with_suffix('.webp')
         if not out.exists():
             with Image.open(f) as im:
                 im.thumbnail((max_w, max_w * 10))
