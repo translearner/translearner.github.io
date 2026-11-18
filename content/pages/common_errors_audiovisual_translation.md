@@ -4,7 +4,7 @@ url: "/common_errors_audiovisual_translation.html"
 bookHidden: true
 ---
 
-## [الترجمة الحرفية لـ You Need Help](http://UNSET/common_errors_audiovisual_translation/-you-need-help)
+## الترجمة الحرفية لـ You Need Help
 
 1/16/2021
 
@@ -19,7 +19,7 @@ bookHidden: true
 وقد يقول قائل إن الموصوف بالشدة هنا هي حاجته للمساعدة وليس المساعدة نفسها، أقول له لا تُفسح مجالا للتأويل إلا حين يفعل مصدرك، فالترجمة مرآة المعنى؛ إذا تبين تبينت وإذا توارى توارت.
 تحياتي
 
-## [الخطأ الشائع للترجمة الحرفية للتعابير الاصطلاحية](http://UNSET/common_errors_audiovisual_translation/5589056)
+## الخطأ الشائع للترجمة الحرفية للتعابير الاصطلاحية
 
 12/26/2020
 
@@ -39,7 +39,7 @@ bookHidden: true
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/825463281543071
 
-## [."الخطأ الشائع في الترجمة الحرفية لـ"بواسطة](http://UNSET/common_errors_audiovisual_translation/8033774)
+## ."الخطأ الشائع في الترجمة الحرفية لـ"بواسطة
 
 12/26/2020
 
@@ -66,7 +66,7 @@ bookHidden: true
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/791882061567860
 
-## [تأملات في ترجمة السُباب](http://UNSET/common_errors_audiovisual_translation/1934154)
+## تأملات في ترجمة السُباب
 
 12/26/2020
 
@@ -104,7 +104,7 @@ You damn imbecile.
 
 تحليل آخر لموضوع ترجمة السباب: https://www.linkedin.com/posts/alimohamedmagdyqe\_theabrsubtitlerabrali-activity-6714568164778221568-cmVg
 
-## [الخطأ الشائع في ترجمة التعازي الإنجليزية!](http://UNSET/common_errors_audiovisual_translation/9237895)
+## الخطأ الشائع في ترجمة التعازي الإنجليزية!
 
 12/26/2020
 
@@ -129,7 +129,7 @@ You damn imbecile.
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/768668613889205
 
-## [أهمية الحفاظ على الإبهام في الترجمة!](http://UNSET/common_errors_audiovisual_translation/6248989)
+## أهمية الحفاظ على الإبهام في الترجمة!
 
 12/26/2020
 
@@ -148,7 +148,7 @@ the day I got my first football boots
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/764823947607005
 
-## [أهمية التناسق والجناس اللغوي في الترجمة المرئية](http://UNSET/common_errors_audiovisual_translation/6656285)
+## أهمية التناسق والجناس اللغوي في الترجمة المرئية
 
 12/26/2020
 
@@ -169,7 +169,7 @@ the day I got my first football boots
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/758777254878341
 
-## [قصة ترجمة عبارة Happy new year](http://UNSET/common_errors_audiovisual_translation/-happy-new-year)
+## قصة ترجمة عبارة Happy new year
 
 12/26/2020
 
@@ -199,7 +199,7 @@ the day I got my first football boots
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/755221365233930
 
-## [خطأ في ترجمة التعبير To what do I owe the pleasure](http://UNSET/common_errors_audiovisual_translation/-to-what-do-i-owe-the-pleasure)
+## خطأ في ترجمة التعبير To what do I owe the pleasure
 
 12/26/2020
 
@@ -222,7 +222,7 @@ the day I got my first football boots
 
 رابط البوست الأصلي: https://www.facebook.com/AliMagdyQE/posts/751703538919046
 
-## [ترجمة التعبير الاصطلاحي المعروف Last but not least](http://UNSET/common_errors_audiovisual_translation/-last-but-not-least)
+## ترجمة التعبير الاصطلاحي المعروف Last but not least
 
 12/26/2020
 

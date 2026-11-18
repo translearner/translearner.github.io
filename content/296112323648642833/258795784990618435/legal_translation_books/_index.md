@@ -84,5 +84,3 @@ bookCollapseSection: true
 
 
 
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=8a4fd153-23db-4cd9-ad1b-b76b8de0e7d4&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)

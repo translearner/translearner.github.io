@@ -105,8 +105,6 @@ url: "/translationbooks.html"
 
 
 
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=fe749b6b-c275-46b1-92c9-8ef045e90f16&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)
-
 ##
 
 ##

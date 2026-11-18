@@ -6,8 +6,6 @@ url: "/multilingual_articles.html"
 bookCollapseSection: true
 ---
 
-[widgetic.com](https://widgetic.com/wbl/app/560284d309c7e2543d8b4567?wbl[wid]=3fb4e3c1-5797-4177-9cc3-a562c09eab48&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=1)
-
 {{% columns %}}
 - ![](/uploads/1/1/0/2/110240455/284305532_orig.jpg)
 - <strong>موقع رائع بترجمة احترافية يوفر مقالاته باللغات التالية بالعربية والإنجليزية  والإسبانية والبرتغالية والفرنسية والألمانية والإيطالية والصينية والروسية </strong>

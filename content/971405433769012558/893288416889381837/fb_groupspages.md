@@ -39,8 +39,6 @@ ONLY!! Arabic >< English
 
 
 
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=474a9753-0909-47cc-97cf-ea9dabd4ee95&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)
-
 ---
 
 ## <strong>جروبات مفيدة للمترجمين</strong>
@@ -133,8 +131,6 @@ ONLY!! Arabic >< English
 
 
 
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=f3a8634b-6c9c-4898-855a-f2825739e41c&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)
 
 ##
 

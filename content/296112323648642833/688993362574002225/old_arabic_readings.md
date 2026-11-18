@@ -55,5 +55,3 @@ url: "/old_arabic_readings.html"
   
   الأعمال الكاملة لابن المقفع
 {{% /columns %}}
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=5d0bf078-c893-4de1-b322-e83e09e47175&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)

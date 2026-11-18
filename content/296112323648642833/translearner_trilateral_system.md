@@ -175,8 +175,6 @@ The Brothers Karamazov is a passionate philosophical novel set in 19th century R
 
 
 
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=95781272-c8f9-4998-a053-3e75d73737ed&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)
-
 * النسخة الإنجليزية التحريرية
 * النسخة الإنجليزية الصوتية
 * النسخة المترجمة

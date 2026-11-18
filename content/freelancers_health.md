@@ -5,7 +5,7 @@ weight: 9
 url: "/freelancers_health.html"
 ---
 
-## [سقم القاعدين بقلم خير العارفين](http://UNSET/freelancers_health/5223950)
+## سقم القاعدين بقلم خير العارفين
 
 4/19/2025
 
@@ -128,7 +128,7 @@ This will not kill you but it will make you wish it does.
 
 لكم التحيات وعليكم السلام.
 
-## [إذا قررت أن تعمل كمترجم حر فهذه هي أول خطوة عليك اتخاذها](http://UNSET/freelancers_health/8940006)
+## إذا قررت أن تعمل كمترجم حر فهذه هي أول خطوة عليك اتخاذها
 
 1/21/2021
 

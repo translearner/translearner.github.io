@@ -26,5 +26,3 @@ url: "/arabic_idioms_proverbs.html"
 {{% details title="معجم التعبيرات الاصطلاحية - عربي إنجليزي - أحمد هلال يس" %}}
 [![معجم التعبيرات الاصطلاحية - عربي إنجليزي - أحمد هلال يس](/uploads/1/1/0/2/110240455/217657698.png)](https://mega.nz/file/hB1lHIaK#_9jlKBbOCKw55p5QQYGzVYdNOnzW7e8y3Fd_JioepkM)
 {{% /details %}}
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=59f6fd29-1910-49a9-9b2a-0e06589465a1&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)

@@ -144,5 +144,3 @@ url: "/arabic_language_books.html"
 {{% details title="المثل السائر في أدب الكاتب والشاعر - ابن الأثير" %}}
 [![المثل السائر في أدب الكاتب والشاعر - ابن الأثير](/uploads/1/1/0/2/110240455/230104177.webp)](https://mega.nz/file/YcdDSagQ#CJYFOIJJjn_7R6-1Z-NnTtukrt2n9FQNNYvdhutTqio)
 {{% /details %}}
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=a0fd609d-d1ca-4098-8b41-2dc9f3fbed04&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)

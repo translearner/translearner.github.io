@@ -83,5 +83,3 @@ url: "/arabic_lexicons.html"
 
 
 
-
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=1304fc35-b733-40ff-ba53-c26267f5cc7b&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)

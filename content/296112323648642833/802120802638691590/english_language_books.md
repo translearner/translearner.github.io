@@ -78,8 +78,6 @@ url: "/english_language_books.html"
 
 
 
-[widgetic.com](https://widgetic.com/wbl/app/53f6253e09c7e204038b4567?wbl[wid]=b0aa1a30-b056-4436-a3d8-526d4450f55d&wbl[uid]=110240455&wbl[sid]=213794892261211814&prod&autoscale=)
-
 ##
 
 ##

@@ -5,8 +5,6 @@ weight: 1
 url: "/volunteer_in_translation.html"
 ---
 
-Powered by [Jasper Roberts](http://jasperroberts.com) - [Blog](http://www.theblogwidgets.com)
-
 [معظم المؤسسات والمواقع لا يتوفر بها فرص تطوع بشكل دائم لذلك إذا وجدت باب التطوع مغلق في إحداها اتجه لأخرى](#)
 
 {{% columns %}}

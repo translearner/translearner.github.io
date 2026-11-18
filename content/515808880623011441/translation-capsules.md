@@ -5,7 +5,7 @@ weight: 1
 url: "/translation-capsules.html"
 ---
 
-## [ترجمة كلمة Workshop](http://UNSET/translation-capsules/-workshop)
+## ترجمة كلمة Workshop
 
 1/25/2021
 
@@ -29,7 +29,7 @@ url: "/translation-capsules.html"
 
 تحياتي
 
-## [ترجمة كلمة Good](http://UNSET/translation-capsules/-good)
+## ترجمة كلمة Good
 
 1/21/2021
 
