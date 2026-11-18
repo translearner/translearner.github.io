@@ -1,0 +1,8 @@
+{{- /* click-to-load: the ~1MB YouTube player is only fetched when someone presses play */ -}}
+{{- $id := .Get 0 | default "" -}}
+{{- $list := .Get "list" | default "" -}}
+{{- $src := cond (ne $list "") (printf "videoseries?list=%s&autoplay=1" $list) (printf "%s?autoplay=1" $id) -}}
+<button class="yt" type="button" aria-label="{{ cond (ne $list "") "تشغيل قائمة الفيديو" "تشغيل الفيديو" }}"
+  onclick="this.outerHTML='<iframe class=yt src=&quot;https://www.youtube-nocookie.com/embed/{{ $src }}&quot; allow=&quot;autoplay; fullscreen&quot; allowfullscreen></iframe>'">
+  {{- with $id }}<img src="https://i.ytimg.com/vi/{{ . }}/hqdefault.jpg" alt="" loading="lazy">{{ end -}}
+</button>

@@ -1,0 +1,5 @@
+{{- /* Flash is dead in browsers; Ruffle emulates it, loaded only on pages that have a game */ -}}
+{{- if not (.Page.Store.Get "ruffle") -}}{{- .Page.Store.Set "ruffle" true -}}
+<script src="https://unpkg.com/@ruffle-rs/ruffle@0.7.1/ruffle.js"></script>
+{{- end }}
+<embed src="{{ .Get 0 }}" width="550" height="450" type="application/x-shockwave-flash">

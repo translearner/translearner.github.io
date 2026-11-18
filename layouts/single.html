@@ -1,0 +1,6 @@
+{{- /* same as hugo-book's default "main", plus the page title for Pagefind (pages have no <h1>) */ -}}
+{{ define "main" }}
+  <article class="markdown book-article" data-pagefind-meta="title:{{ .Title }}">
+    {{- .Content -}}
+  </article>
+{{ end }}
