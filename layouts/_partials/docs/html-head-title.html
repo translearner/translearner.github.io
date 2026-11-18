@@ -1,0 +1,2 @@
+{{- /* hugo-book's title, without "site • site" on the home page */ -}}
+{{ if not .IsHome }}{{ with partial "docs/title" . }}{{ . }} • {{ end }}{{ end }}{{ .Site.Title -}}
