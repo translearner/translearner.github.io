@@ -1,0 +1,31 @@
+# baseURL is overridden in CI by the Pages URL
+baseURL: https://example.github.io/
+title: أرشيف المترجمين
+theme: hugo-book
+defaultContentLanguage: ar
+languages:
+  ar:
+    direction: rtl
+    label: العربية
+    locale: ar
+disablePathToLower: true
+enableRobotsTXT: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # imported content keeps a few raw HTML blocks
+outputs:
+  home: [html]
+  page: [html]
+  section: [html]
+menu:
+  before:
+    - name: بحث
+      url: /search_results.html
+      weight: 1
+params:
+  BookTheme: auto
+  BookSection: /
+  BookToC: false
+  BookSearch: false # Pagefind instead: Arabic-aware and only loaded on the search page
+  BookServiceWorker: false
